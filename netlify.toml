@@ -1,0 +1,8 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "https://farmit-in.onrender.com/:splat"
+  status = 302
+  force = true
